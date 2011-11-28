@@ -1,6 +1,7 @@
-(ns web.test.core
-  (:use [web.core])
-  (:use [clojure.test]))
+(ns web.test.core 
+  (:use fm.namespaces 
+        fm.util 
+        clojure.test)) 
 
-(deftest replace-me ;; FIXME: write
-  (is false "No tests have been written."))
+(deftest carga-todos
+  (is (false-on-exception load-ns)))
