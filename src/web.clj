@@ -20,6 +20,3 @@
 (defn number-list [coll]
   [:ol
    (map (fn [elem] [:li elem]))])
-
-(defn wawa [coll]
-  [:wawa coll])
