@@ -21,5 +21,5 @@
   [:ol
    (map (fn [elem] [:li elem]))])
 
-(defn address [text]
-  [:address text])
+(defn wawa [coll]
+  [:wawa coll])
