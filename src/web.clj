@@ -20,6 +20,3 @@
 (defn number-list [coll]
   [:ol
    (map (fn [elem] [:li elem]))])
-
-(println "aaaa")
-
