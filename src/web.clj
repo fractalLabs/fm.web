@@ -20,3 +20,6 @@
 (defn number-list [coll]
   [:ol
    (map (fn [elem] [:li elem]))])
+
+(defn address [text]
+  [:address text])
