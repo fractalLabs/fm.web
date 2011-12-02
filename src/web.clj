@@ -15,8 +15,8 @@
 
 (defn bullet-list [coll]
   [:ul
-   (map (fn [elem] [:li elem]))])
+   (map (fn [elem] [:li elem]) coll)])
 
 (defn number-list [coll]
   [:ol
-   (map (fn [elem] [:li elem]))])
+   (map (fn [elem] [:li elem]) coll)])
