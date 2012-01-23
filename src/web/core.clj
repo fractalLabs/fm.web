@@ -10,8 +10,6 @@
   ([titles coll]
    (table (cons titles coll))))
 
-(defn link-to [obj reference]
-  [:a {:href reference} obj])
 
 (defn bullet-list [coll]
   [:ul
