@@ -2,13 +2,13 @@
 
 
 (defn table 
-  ([coll]
-   [:table
+  ([coll options]
+   [:table options
     (for [row coll]
       [:tr
        (map (fn [elem] [:td elem]) row)])])
-  ([titles coll]
-   (table (cons titles coll))))
+  ([coll]
+   (table coll {})))
 
 
 (defn bullet-list [coll]
