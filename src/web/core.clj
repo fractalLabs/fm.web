@@ -2,7 +2,7 @@
 
 
 (defn table 
-  ([coll options]
+  ([options coll]
    [:table options
     (for [row coll]
       [:tr
