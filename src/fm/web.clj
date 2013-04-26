@@ -1,7 +1,7 @@
 (ns fm.web)
 
 
-(defn table 
+(defn table "Genera una tabla de html."
   ([options coll]
    [:table options
     (for [row coll]
