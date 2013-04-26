@@ -1,10 +1,15 @@
 # web
 
-lib de htmp con sintaxis de hiccup
+lib de html con sintaxis de hiccup
 
 ## Usage
 
 En construccion
+
+(use 'fm.web)
+
+(table [[1 2 3][4 5 6]]) ;Genera en hiccup una tabla html
+
 
 ## License
 
